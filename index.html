@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .btn-primary {
+            background: #FF4240;
+        }
+    </style>
+
+</head>
+
+<body class="font-manrope m-0 font-segoe-ui overflow-x-hidden max-w-screen-xl mx-auto">
+
+    <header>
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Page</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <span class="lg:text-3xl font-bold sm:text-xl">Hockey <b class="text-[#FF4240]">'</b>s</span>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-normal">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Page</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-primary border-none text-white px-10 py-15">Get Ticket</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner section -->
+
+    <section class="w-1170 h-550">
+        <div class="carousel w-1170 h-550">
+            <div id="slide1" class="carousel-item relative w-full h-full">
+                <img src="./Images/1.png" class="w-full h-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full h-full">
+                <img src="./Images/4.png" class="w-full h-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hocky Club Section -->
+
+    <section class="mt-8">
+        <div class="card w-100 bg-base-100">
+            <div class="card-body">
+                <h1 class="text-3xl font-bold text-center">Professional Hockeys Club</h1>
+                <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Section -->
+
+    <section class="mt-8 flex flex-col items-center md:flex-row">
+        <div class="card w-full md:w-100 bg-base-100 mx-auto">
+            <div class="card-body">
+                <div class="rounded-b-box rounded-se-box relative overflow-x-auto">
+                    <div class="flex flex-col md:flex-row text-center md:gap-x-12 justify-center items-center">
+                        <div class="mb-4 md:mb-0">
+                            <div class="radial-progress text-[#FF4240]" role="progressbar" style="--value: 87;"><span
+                                    class="text-black text-xl font-bold">87%</span></div>
+                            <p class="text-xl mt-2 font-bold">Prayer Facility</p>
+                            <p class="font-normal text-16 mt-2">Every Muslim is expected <br> to pray five times a day
+                            </p>
+                        </div>
+                        <div class="mb-4 md:mb-0">
+                            <div class="radial-progress text-[#49D293]" role="progressbar" style="--value: 95;"><span
+                                    class="text-black text-xl font-bold">95%</span></div>
+                            <p class="text-xl mt-2 font-bold">Experienced Coach</p>
+                            <p class="font-normal text-16 mt-2">If you describe someone <br> as experienced</p>
+                        </div>
+                        <div class="mb-4 md:mb-0">
+                            <div class="radial-progress text-[#FFB546]" role="progressbar" style="--value: 90;"><span
+                                    class="text-black text-xl font-bold">90%</span></div>
+                            <p class="text-xl mt-2 font-bold">Senior Player</p>
+                            <p class="font-normal text-16 mt-2">Senior Player means a player <br> who has played
+                                International</p>
+                        </div>
+                        <div>
+                            <div class="radial-progress text-[#4C8DF1]" role="progressbar" style="--value: 90;"><span
+                                    class="text-black text-xl font-bold">80%</span></div>
+                            <p class="text-xl mt-2 font-bold">Training Ground</p>
+                            <p class="font-normal text-16 mt-2">We believe God uses different <br> experiences to build
+                                a man</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Program Section -->
+
+    <section class="mt-8">
+        <div class="card w-100 bg-base-100">
+            <div class="card-body">
+                <h1 class="text-3xl font-bold text-center">Program Sections</h1>
+                <p class="text-center">Program sections, or psects, are simply a section of code or data. <br> They are
+                    a way of grouping together parts of a program</p>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="hero relative rounded-xl">
+                <img src="./Images/2.png" alt="" class="rounded-xl">
+                <div class="bg-opacity-60 absolute inset-0 rounded-xl"></div>
+                <div class="hero-content text-center text-neutral-content relative z-10">
+                    <div class="max-w-md text-start">
+                        <h1 class="mb-5 text-5xl font-bold text-white">Junior Program</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary border-none text-white px-10 py-15">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero relative rounded-xl">
+                <img src="./Images/3.png" alt="" class="rounded-xl">
+                <div class="hero-overlay bg-opacity-60 absolute inset-0 rounded-xl"></div>
+                <div class="hero-content text-center text-neutral-content relative z-10">
+                    <div class="max-w-md text-start">
+                        <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary border-none text-white px-10 py-15">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero min-h-screen rounded-xl mt-[-50px]">
+            <img src="./Images/4.png" alt="">
+            <div class="hero-content text-neutral-content">
+                <div class="text-start">
+                    <h1 class="mb-5 text-5xl font-bold text-white">Professional Program</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. <br> Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. <br> In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary border-none text-white px-10 py-15">Register Now!</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
