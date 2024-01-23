@@ -68,8 +68,9 @@
 
         <!-- banner section -->
 
-        <section class="w-1170 h-550">
+        <section class="w-1170 h-550 relative">
             <div class="carousel w-1170 h-550">
+                <!-- Slide 1 -->
                 <div id="slide1" class="carousel-item relative w-full h-full">
                     <img src="./Images/1.png" class="w-full h-full" />
                     <div
@@ -78,30 +79,48 @@
                         <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                     </div>
                     <div
-                        class="absolute justify-between h-48 lg:h-28 rounded-lg lg:left-1/2 lg:right-10 bottom-0 top-96 bg-black p-4 text-white text-center">
+                        class="hidden lg:block absolute justify-between h-48 lg:h-28 rounded-lg lg:left-1/2 lg:right-10 bottom-0 top-477 bg-black p-4 text-white text-center">
                         <h2 class="text-2xl lg:text-3xl lg:font-semibold">Meet all the heroes from the field</h2>
                         <p class="p-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-                            dolor.
-                            Purus urna in sit nullam proin. </p>
+                            dolor. Purus urna in
+                            sit nullam proin. </p>
                     </div>
                 </div>
+
+                <!-- Slide 2 -->
                 <div id="slide2" class="carousel-item relative w-full h-full">
                     <img src="./Images/4.png" class="w-full h-full" />
-                    <div class="absolute justify-between p-5 left-0 right-0 bottom-0 top-1/1 text-center">
+                    <div
+                        class="absolute justify-between p-5 left-0 right-0 bottom-0 top-1/1 lg:text-left md:text-center">
                         <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
-                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                     </div>
                     <div
-                        class="absolute justify-between h-48 lg:h-28 rounded-lg lg:left-1/2 lg:right-10 bottom-0 top-96 bg-black p-4 text-white text-center">
+                        class="hidden lg:block absolute justify-between h-48 lg:h-28 rounded-lg lg:left-1/2 lg:right-10 bottom-0 top-477 bg-black p-4 text-white text-center">
                         <h2 class="text-2xl lg:text-3xl lg:font-semibold">Meet all the heroes from the field</h2>
                         <p class="p-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-                            dolor.
-                            Purus urna in sit nullam proin. </p>
+                            dolor. Purus urna in
+                            sit nullam proin. </p>
                     </div>
                 </div>
             </div>
+
+
         </section>
 
+        <!-- Text content after the slider (for mobile devices) -->
+        <section>
+            <div class="w-full lg:hidden">
+                <div class="h-48 rounded-lg bg-black p-4 text-white text-center">
+                    <h2 class="text-lg lg:text-xl">Meet all the heroes from the field</h2>
+                    <p class="p-2 text-base lg:text-lg text-stone-400 text-left">Dit amet consectetur. Condimentum
+                        dignissim
+                        adipiscing aliquam
+                        turpis placerat
+                        dolor. Purus urna in sit nullam proin.</p>
+                </div>
+            </div>
+        </section>
 
         <!-- Hocky Club Section -->
 
